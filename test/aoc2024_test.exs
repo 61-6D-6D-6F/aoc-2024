@@ -16,4 +16,12 @@ defmodule Aoc2024.TestDays do
   test "day 02 part 2" do
     assert Aoc2024.Day02Part2.run() == 364
   end
+
+  test "day 03 part 1" do
+    assert Aoc2024.Day03Part1.run() == 159892596
+  end
+
+  test "day 03 part 2" do
+    assert Aoc2024.Day03Part2.run() == 92626942
+  end
 end
